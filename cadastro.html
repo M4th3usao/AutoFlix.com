@@ -27,7 +27,7 @@
         <div class="container">
             <h2 class="logo">AUTOFLIX</h2>
             <nav>
-                <a href="">Início</a>
+                <a href="index.html">Início</a>
                 <a href="">Séries</a>
                 <a href="">Filmes</a>
                 <a href="">Documentários</a>
@@ -44,29 +44,29 @@
 
         <div class="box">
             <div class="container-form">
-                <form action="cadastro.php" method="post">
-                    <div class="row">
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" />
+                <form action="cadastro.html" method="post">
+                    <div class="itemC">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" required/>
                     </div>
-                    <div class="row">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" />
+                    <div class="itemC">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required/>
                     </div>
 
-                    <div class="row">
+                    <div class="itemC">
                         <label for="password">Senha</label>
-                        <input type="password">
+                        <input type="password" required>
                     </div>
 
-                    <div class="row">
+                    <div class="itemC">
                         <label for="phone">Telefone</label>
-                        <input type="tel">
+                        <input type="tel" required>
                     </div>
 
-                    <div class="row">
+                    <div class="itemC">
                         <label for="adress">Endereço</label>
-                        <input type="text">
+                        <input type="text" required>
                     </div>
 
                     <div class="g-recaptcha" data-sitekey="6Lc0HtEfAAAAAIFpJRMZBQfyNT-kNLiNcFvsogCQ"></div>
@@ -138,14 +138,5 @@
               }
           }
       </script>
-      <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcXQM8fAAAAAO_Vvu-JKVZ8ADs90AHU9bIxEoSU"></script>
-      <script>
-      grecaptcha.enterprise.ready(function() {
-          grecaptcha.enterprise.execute('6LcXQM8fAAAAAO_Vvu-JKVZ8ADs90AHU9bIxEoSU', {action: 'login'}).then(function(token) {
-             ...
-          });
-      });
-      </script> -->
-
 </body>
 </html>
